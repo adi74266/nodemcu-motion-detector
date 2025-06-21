@@ -1,3 +1,5 @@
+// This file handles the LED display part.
+
 #ifndef OLED_HANDLER_H
 #define OLED_HANDLER_H
 
