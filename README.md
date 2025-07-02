@@ -14,4 +14,4 @@ In this project there are these components involved:
 ## Component Details
 ### ESP8266 NodeMCU
 This component is the main processor for this device. It is a 30-pin board which has several GPIO pins, few 3.3 volt VCC pins and few GND pins.<br> 
-![This is the image of NodeMCU]("assets\NodeMCU.jpg")
+![This is the image of NodeMCU]("https://github.com/adi74266/nodemcu-motion-detector/blob/main/assets/NodeMCU.jpg")
