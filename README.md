@@ -22,10 +22,7 @@ This is the visual representation of the pin names and their uses.
 This component detects the  motion by sending and receiving the changes detected on its sensor. A plastic dome is present to concentrate the input infrared to a single point. There are 3 pins and 2 potentiometer available on this component. There is VCC and GND pin and an OUT pin for sending output. THe potentiometers in this component are used to adjust the detection distance and the delay in sending individual output from the component to the main circuit board.
 ![HC-SR501-Pyroelectric-Infrared-Motion-Sensor-PIR-1-2999069279](https://github.com/user-attachments/assets/2d616036-8537-45bd-bc9e-c13e372b00d0)
 ### Light Dependent Resistor (LDR)
-This component is used to detect the daynight cycle for the operation of the whole project. It changes its resistance based on the input light received. It has to be set up in a voltage divider circuit.
-- For its replacement, a photodiode can also be used in case of unavailability.
-### Photoresistor
-This component is based on the principle that when the light falls on it, it changes its resistance according to the amount of light. There is also Photodiode available in the market that works similar to the it but has a difference that it is bidirectional. The signal sent by it is Analog Signal so the input should be in Analog Pin.
+This component is used to detect the daynight cycle for the operation of the whole project. It changes its resistance based on the input light received. It has to be set up in a voltage divider circuit. Photodiode can be used as replacement.
 ### I2C OLED Display
 This component in this circuit, will act as an output screen that shows if the circuit is active, how much light is being sent to the processor and whether the motion is detected or not. The screen has individual pixels which are either turned ON or OFF which shows the required Output.
 ### Light Emitting Diode (LED)
