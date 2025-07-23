@@ -14,7 +14,6 @@ In this project there are these components involved:
 ## Component Details
 ### ESP8266 NodeMCU
 This component is the main processor for this device. It is a 30-pin board which has several GPIO pins, few 3.3 volt VCC pins and few GND pins.<br> 
-![This is the image of NodeMCU]("https://github.com/adi74266/nodemcu-motion-detector/main/assets/NodeMCU.jpg")
 ![NodeMCU](https://github.com/user-attachments/assets/dc09b834-10a6-4c85-9fe5-1a5a76992fa4)
 The above image is the market available circuit board.
 ![nodemcudevkit_v1-0_io-4280715523](https://github.com/user-attachments/assets/d02656a8-28ca-44c6-9c8e-af4447fd2f3e)
@@ -35,5 +34,21 @@ A basic LED which will show when a movement is detected by the Motion Sensor.
 It is the board where the circuit is prototyped and tested before being soldering to a Copper Clad PCB board.
 ### Jumper Wires
 It is used for prototyping and testing circuits. There are 3 types of jumper wires i.e., Male to Male, Female to Male and Female to Female.
-### 
+### Micro USB Cable 
+It is used for transferring the code from the device to the NodeMCU
+## Circuit Working
+The circuit works in 5 steps:
+1. **Day-Night Cycle Checking**
+<br>It checks the light in the surrounding.
+2. **Motion Sensing**
+<br>It detects the motion in its detectable region.<br>
+3. **Night-Time Filtering**<br>
+It filters whether the circuit should be on based on the Input Light.
+4. **Status display on OLED**
+<br> All the status of the circuit is displayed to the OLED to user
+5. **Web Interface**
+<br> It is for remote access to the entire activeness of the circuit
+
+
+
 
